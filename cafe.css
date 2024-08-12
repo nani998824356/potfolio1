@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0;
+    background-color: #0fa7e3;
+    color: #0a0101f1;
+    border: 20px solid red;
+    background-image: none;
+    
+}
+
+header {
+    background-color: #8b4513;
+    color: #eff4f6;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #57bd13;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+#menu .menu-item {
+    background-color: #d9e8f2;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(235, 10, 10, 0.1);
+    max-width: 200px;
+
+}
+
+#contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    color: #071200d9;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: 1px solid #d40909;
+}
+
+footer {
+    background-color: #8b4513;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
